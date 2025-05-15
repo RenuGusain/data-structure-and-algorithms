@@ -16,7 +16,7 @@ public class LeetCode169 {
             }
            else
            {
-               frequency.put(num,frequency.get(num)+1)
+               frequency.put(num,frequency.get(num)+1);
            }
            if(frequency.get(num)>=target)
            {
